@@ -15,7 +15,7 @@ const Header = () => {
     setIsLoading(true);
     try {
       const response = await axios.post(
-        "https://scissor-7s2y.onrender.com/logout"
+        "https://scissor-nt8i.onrender.com/logout"
       );
       if (response.status === 200) {
         setUserLoggedIn(false);

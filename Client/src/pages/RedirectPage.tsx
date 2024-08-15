@@ -13,7 +13,7 @@ const RedirectPage = () => {
     const redirect = async () => {
       try {
         const response = await axios.get(
-          `https://scissor-7s2y.onrender.com/link/${domainUrl}`
+          `https://scissor-nt8i.onrender.com/link/${domainUrl}`
         );
         if (response.status === 200) {
           const originalLink = response.data.originalLink;

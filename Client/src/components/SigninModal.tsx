@@ -34,7 +34,7 @@ const SigninModal = () => {
     setIsLoading(true);
     try {
       const response = await axios.post(
-        "https://scissor-7s2y.onrender.com/login",
+        "https://scissor-nt8i.onrender.com/login",
         {
           email,
           password,
